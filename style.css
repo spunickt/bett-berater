@@ -1,0 +1,24 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container-image {
+  height: 70vh;
+  width: 100%;
+  background: url("start-bg.jpg") no-repeat center;
+  background-size: cover;
+  position: absolute;
+}
+
+.btn {
+  position: relative;
+  top: 50%;
+  left: 30%;
+}
+
