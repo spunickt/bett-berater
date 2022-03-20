@@ -7,6 +7,12 @@ html, body {
   padding: 0;
 }
 
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .container-image {
   height: 70vh;
@@ -16,9 +22,19 @@ html, body {
   position: absolute;
 }
 
-.btn {
-  position: relative;
-  top: 50%;
-  left: 30%;
+input[type="radio"] {
+  cursor: pointer;
+  padding: 1rem;
+}
+
+label {
+  cursor: pointer;
+}
+
+.btn-group {
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
