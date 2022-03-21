@@ -32,9 +32,9 @@ label {
 }
 
 .btn-group {
-  width: 700px;
+  width: 400px;
   display: flex;
   justify-content: center;
-  align-self: center;
+  align-content: center;
+  align-items: center;
 }
-
